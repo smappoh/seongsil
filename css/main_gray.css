@@ -1,0 +1,146 @@
+﻿@charset "UTF-8";
+      * {margin:0; box-sizing:border-box;}
+      body {color:#000; font-family:"맑은 고딕"; margin: 0 0 100px 0px; background-image: url("../img/bg4.jpg"); background-repeat: repeat; padding:0 0 100px 0px; }
+      ul, ol,  li {list-style:none; margin:0; padding:0;}
+
+
+      #grad1 {
+        width: 100%;
+        height: auto;
+       /* background-image: linear-gradient(to right, #eee , #fff);  */
+        display:flex; justify-content: center; align-items:flex-start; flex-wrap:wrap;
+      }
+
+     img {box-shadow: 4px 4px 4px #ddd;}
+
+
+
+      /*프로필 박스*/
+      #profile_box {width:1100px; height:auto; margin:190px 0 150px 0px; }
+
+      .about {width:250px; height:640px;  margin:0 6% 0 0px; float:left;}
+      .about > img {width:155px; height:200px; margin:20px 0px;} 
+      .about >h1 {margin:30px 0 30px 0px; font-size:40px;}
+      table, th, td { border:none; font-size:14px; margin:10px 0 0 0px;}
+
+      .graph2 {width:700px; height:250px;  float:right;   background-image: url("../img/line_gr2.png"); background-repeat: no-repeat; background-position:left bottom; margin:50px 0 0 0px;}
+      .graph2 >h3 {margin:80px 0 0px 50px; font-size:18px;}
+
+      .education {width:300px; height:125px; margin:50px 0 0 30px;  float:left;}
+      .training {width:350px; height:125px; margin:50px 0 0 50px;   float:left; }
+      .licence {width:300px; height:125px;  margin:50px 0 0 30px;   float:left;} 
+      .skill {width:350px; height:125px;   margin:50px 0 0 50px;  float:left;}
+
+
+
+
+
+
+
+      /*가로박스 이미지*/
+      .img_box1 {width:1100px; height:100vh;  margin:100px 0 0px 0px;}
+
+      .ibox1 {width:900px; height:70vh; }
+      .ibox1 > img {width:100%; height:100%; cursor:pointer;}
+      .ibox1 > img:hover {opacity:0.5;}
+
+      .tbox1 {width:1000px; height:180px; float:right;  margin:50px 0 0 0px;}
+      .tbox1 .titlebox {width:400px; height:180px;  float:left; }
+      .tbox1  h1 {font-size:40px;  }   
+      .tbox1  h3 {font-size:30px;   margin:20px 0 10px 0px; line-height:25px; }   
+      .tbox1  .pointc {font-size:20px; margin :10px 20px 0 0px;  float:left;}   
+      .tbox1  span {font-size:20px;   }
+      .tbox1  p {font-size:13px; line-height:25px;  float:right; width:580px; display:inline-block; margin:30px 0 0 0px;}  
+
+
+
+      /*세로박스 이미지*/
+      .img_box2 {width:1100px; height:80vh;  margin:100px 0 100px 0px; }
+      .ibox2 {width:650px; height:80vh; float:left}
+      .ibox2 > img {width:100%; height:100%; cursor:pointer;}
+      .ibox2 > img:hover {opacity:0.5;}
+
+      .tbox2 {width:370px; height:445px; float:right; margin:100px 0 0 0px; }
+      .tbox2 > h1 {font-size:40px;  margin:30px 0 30px 0px;}   
+      .tbox2 > h3 {font-size:30px; margin:30px 0 30px 0px;}   
+      .tbox2  .pointc {font-size:20px; margin:30px 0 30px 0px;}   
+      .tbox2  span {font-size:20px; margin:30px 0 30px 0px; }
+      .tbox2 > p {font-size:13px; line-height:25px; margin:50px 0 0 0px;}  
+
+
+
+
+
+      /*포인트칼*/
+
+
+
+      /*project 1*/
+      .color_01 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_01 > li:first-child {background-color:#cb2129;}
+      .color_01 > li:nth-child(2) {background-color: #134a99;}
+      .color_01 > li:last-child {background-color: #000000;}
+ 
+
+
+      /*project 2*/
+      .color_02 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_02 > li:first-child {background-color:#223562;}
+      .color_02 > li:nth-child(2) {background-color:#4857a5;}
+      .color_02 > li:last-child {background-color:#ed844c;}
+
+
+
+      /*project 3*/
+      .color_03 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_03 > li:first-child {background-color:#98c962;}
+      .color_03 > li:nth-child(2) {background-color: #e5bebd;}
+      .color_03 > li:last-child {background-color: #62a1cc;}
+
+
+
+      /*project 4*/
+      .color_04 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_04 > li:first-child {background-color:#000000;}
+      .color_04 > li:nth-child(2) {background-color: #ffffff;}
+
+
+
+
+      /*project 5*/
+      .color_05 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_05 > li:first-child {background-color:#000000;}
+      .color_05 > li:nth-child(2) {background-color: #ffffff;}
+
+
+
+      /*project 6*/
+      .color_06 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_06 > li:first-child {background-color:#c71717;}
+      .color_06 > li:nth-child(2) {background-color: #000000;}
+      .color_06 > li:last-child {background-color: #bbbbbb;}
+
+
+
+      /*project 7*/
+      .color_07 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_07 > li:first-child {background-color:#d62f29;}
+      .color_07 > li:nth-child(2) {background-color: #000000;}
+      .color_07 > li:last-child {background-color: #e8dfb8;}
+
+
+      /*project 8*/
+      .color_08 > li  {width:25px; height:25px; border-radius:50%; float:left; margin: 10px 5px;}
+      .color_08 > li:first-child {background-color:#6543ce;}
+      .color_08 > li:nth-child(2) {background-color: #eb52fc;}
+      .color_08 > li:last-child {background-color: #a3c6fe;}
+
+      /*skill*/
+      .graph  { width: 90%; list-style: none; }
+      .graph li { position: relative; padding: 1px 0; white-space:nowrap; margin:5px 0;}
+      .graph li span  { display: inline-block; position: relative; height: 20px; line-height: 18px; background: linear-gradient( to left, #8c96ff, #6771da);  padding:0 10px; color: #ddd; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+
+
+
+
+
